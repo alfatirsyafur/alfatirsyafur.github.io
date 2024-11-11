@@ -1,0 +1,268 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ccd0cf;
+  color: #000000;
+}
+
+/* Header Styling */
+header {
+  background-color: #566a5c;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url("../images/hero.jpg") no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.btn {
+  background-color: #575757;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #cf3e14;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #566a5c;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Daftar Tokoh Styling */
+.tokoh-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  padding: 20px;
+}
+
+.tokoh-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tokoh-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.tokoh-item h3 {
+  margin: 15px 0 10px;
+}
+
+.tokoh-item p {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Detail Tokoh Styling */
+.detail-tokoh {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.detail-container img {
+  flex: 1 1 300px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.detail-info {
+  flex: 2 1 400px;
+}
+
+.detail-info h2 {
+  margin-bottom: 15px;
+}
+
+.detail-info p {
+  margin-bottom: 10px;
+}
+
+/* Detail2 Tokoh Styling */
+.detail2-tokoh {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.detail2-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.detail2-container img {
+  flex: 1 1 300px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.detail2-info {
+  flex: 2 1 400px;
+}
+
+.detail2-info h2 {
+  margin-bottom: 15px;
+}
+
+.detail2-info p {
+  margin-bottom: 10px;
+}
+
+/* Kontak Form Styling */
+.contact-form {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.contact-form form button {
+  background-color: #e8491d;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form form button:hover {
+  background-color: #cf3e14;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #566a5c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.nama-kelompok {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.nama-kelompok li {
+  display: inline;
+  margin: 0 10px;
+  font-style: italic;
+}
+
+.nama-kelompok li:before {
+  content: "• ";
+  color: #ffc107;
+}
+
+footer p:last-of-type {
+  font-size: 12px;
+  color: #e9e3e3;
+}
